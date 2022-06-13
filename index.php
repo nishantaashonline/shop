@@ -711,7 +711,7 @@
               </div>
 
 
-
+ 
                 <!-- end category 2 -->
                 <div class="title-link-wrapper title-deals appear-animate after-none">
                     <h2 class="title">Deals Of The Day</h2>

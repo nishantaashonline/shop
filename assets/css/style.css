@@ -21483,7 +21483,10 @@ aside .sp-sidebar-banner span {
     background-color: white;
 }
 
-.caregory-card{
-margin: 0px;
-padding:0px;
+.title-link-wrapper .title{
+  color: var(--nc-primary);
+}
+
+.product-countdown-container{
+background-color:black;
 }
