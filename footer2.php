@@ -747,38 +747,59 @@
 
 <!-- Plugin JS File -->
 
-<script>
-WebFontConfig = {
-    google: {
-        families: ['Poppins:400,500,600,700,800']
-    }
-};
-(function(d) {
-    var wf = d.createElement('script'),
-        s = d.scripts[0];
-    wf.src = 'assets/js/webfont.js';
-    wf.async = true;
-    s.parentNode.insertBefore(wf, s);
-})(document);
-</script>
 <script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/jquery.count-to/jquery.count-to.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/main.min.js"></script>
-<script src="assets/vendor/parallax/parallax.min.js"></script>
-<script src="assets/vendor/zoom/jquery.zoom.js"></script>
-<script src="assets/vendor/photoswipe/photoswipe.min.js"></script>
-<script src="assets/vendor/photoswipe/photoswipe-ui-default.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key="></script>
-<script src="assets/vendor/jquery.countdown/jquery.countdown.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-</script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key="></script>
+    <script>
+
+        /*
+        Map Settings
+            Find the Latitude and Longitude of your address:
+                - https://www.latlong.net/
+                - http://www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
+        */
+
+        // Map Markers
+        var mapMarkers = [{
+            address: "New York, NY 10017",
+            html: "<strong>New York Office<\/strong><br>New York, NY 10017",
+            popup: true
+        }];
+
+        // Map Initial Location
+        var initLatitude = 40.75198;
+        var initLongitude = -73.96978;
+
+        // Map Extended Settings
+        var mapSettings = {
+            controls: {
+                draggable: !window.Wolmart.isMobile,
+                panControl: true,
+                zoomControl: true,
+                mapTypeControl: true,
+                scaleControl: true,
+                streetViewControl: true,
+                overviewMapControl: true
+            },
+            scrollwheel: false,
+            markers: mapMarkers,
+            latitude: initLatitude,
+            longitude: initLongitude,
+            zoom: 11
+        };
+
+        var map = $( '#googlemaps' ).gMap( mapSettings );
+
+        // Map text-center At
+        var mapCenterAt = function ( options, e ) {
+            e.preventDefault();
+            $( '#googlemaps' ).gMap( "centerAt", options );
+        }
+
+    </script>
+
+
 
