@@ -46,6 +46,7 @@
     <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css">
 
     <!-- Default CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/demo11.css"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
