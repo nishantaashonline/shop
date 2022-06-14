@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-    <title>Wolmart - Marketplace php5 Template</title>
+    <title>Shopee</title>
 
     <meta name="keywords" content="Marketplace ecommerce responsive php5 Template" />
     <meta name="description" content="Wolmart is powerful marketplace &amp; ecommerce responsive php5 Template.">
@@ -39,7 +39,7 @@
 </head>
 <body class="home bg-grey">
     <div class="page-wrapper">
-        <h1 class="d-none">Wolmart - Responsive Marketplace php Template</h1>
+        <h1 class="d-none">Shopee</h1>
         <!-- Start of Header -->
         <?php include 'header2.php';?>
         <!-- End of Header -->

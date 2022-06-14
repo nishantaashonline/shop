@@ -2,7 +2,7 @@
             <div class="header-top">
                 <div class="container">
                     <div class="header-left">
-                        <p class="welcome-msg">Welcome to Wolmart Store message or remove it!</p>
+                        <p class="welcome-msg">Welcome to Shopee</p>
                     </div>
                     <div class="header-right">
                         <div class="dropdown">
@@ -703,16 +703,16 @@
                                         <ul>
 
                                             <li><a href="about-us.php">About Us</a></li>
-                                            <li><a href="become-a-vendor.php">Become A Vendor</a></li>
+                                            
                                             <li><a href="contact-us.php">Contact Us</a></li>
                                             <li><a href="faq.php">FAQs</a></li>
-                                            <li><a href="error-404.php">Error 404</a></li>
-                                            <li><a href="coming-soon.php">Coming Soon</a></li>
-                                            <li><a href="wishlist.php">Wishlist</a></li>
+                                            
+                                            
+                                            
                                             <li><a href="cart.php">Cart</a></li>
                                             <li><a href="checkout.php">Checkout</a></li>
                                             <li><a href="my-account.php">My Account</a></li>
-                                            <li><a href="compare.php">Compare</a></li>
+                                           
                                         </ul>
                                     </li>
                                     <li>
