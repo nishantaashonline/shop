@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from portotheme.com/html/wolmart/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Jun 2022 06:07:28 GMT -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -243,6 +243,10 @@
                             </div>
                         </div>
                     </section>
+
+
+                  
+
                     <!-- End of Contact Section -->
                 </div>
 
@@ -262,6 +266,11 @@
 
     <!-- Start of Sticky Footer -->
  
+
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key="></script>
     <script>
@@ -314,5 +323,5 @@
 </body>
 
 
-<!-- Mirrored from portotheme.com/html/wolmart/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Jun 2022 06:07:30 GMT -->
+
 </html>
