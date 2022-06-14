@@ -569,7 +569,7 @@
                             <nav class="main-nav">
                                 <ul class="menu active-underline">
                                     <li>
-                                        <a href="demo1.php">Home</a>
+                                        <a href="index.php">Home</a>
                                     </li>
                                     <li>
                                         <a href="shop-banner-sidebar.php">Shop</a>

@@ -42,6 +42,7 @@
         <h1 class="d-none">Shopee</h1>
         <!-- Start of Header -->
         <?php include 'header2.php';?>
+        
         <!-- End of Header -->
         <!-- Start of Main -->
         <main class="main">

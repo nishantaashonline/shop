@@ -14925,7 +14925,7 @@ body .product-popup {
   background-color: #393939;
 }
 .header-middle .label-down span {
-  color: #bfbfbf;
+  color: #fff;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
