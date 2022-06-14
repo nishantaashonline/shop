@@ -56,7 +56,7 @@
 <body>
     <div class="page-wrapper">
         <!-- Start of Header -->
-        <?php include "header2.php"?>
+        <?php include "header.php"?>
         <!-- End of Header -->
 
 
