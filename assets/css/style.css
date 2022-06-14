@@ -21512,3 +21512,7 @@ background:var(--nc-primary-gradient);
   .cart-label{
     color:white;
   }
+
+  .title{
+    color: var(--nc-primary);
+  }

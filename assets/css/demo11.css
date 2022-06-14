@@ -629,6 +629,7 @@ table {
 .sticky-content.fixed.fix-top {
   -webkit-animation: fixedTopContent 0.4s;
           animation: fixedTopContent 0.4s;
+  
 }
 .sticky-content.fixed.fix-bottom {
   -webkit-animation: fixedBottomContent 0.4s;
@@ -15166,6 +15167,7 @@ body .product-popup {
 .title-deals .title {
   margin: 0.7rem 2rem 0.3rem 0;
   font-size: 2rem;
+  
 }
 
 .product-countdown-container {
@@ -15601,4 +15603,13 @@ body .product-popup {
   color: white;}
   .cart-label{
     color:white;
+  }
+
+
+   .title{
+    color: var(--nc-primary);
+  }
+
+  .sticky-content.fixed.fix-top {
+            background-color: var(--nc-primary);
   }
