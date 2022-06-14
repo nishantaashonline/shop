@@ -51,7 +51,7 @@
     <div class="page-wrapper">
         <h1 class="d-none">Wolmart - Responsive Marketplace HTML Template</h1>
         <!-- Start of Header -->
-        <?php include "header2.php"?>
+        <?php include "header.php"?>
         <!-- End of Header -->
 
         <!-- Start of Main -->

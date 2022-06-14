@@ -1,33 +1,8 @@
-    <!-- Favicon -->
-    <link rel="preload" href="assets/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" as="font" type="font/woff2"
-    crossorigin="anonymous">
-<link rel="preload" href="assets/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" as="font" type="font/woff2"
-    crossorigin="anonymous">
-<link rel="preload" href="assets/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" as="font" type="font/woff2"
-        crossorigin="anonymous">
-<link rel="preload" href="assets/fonts/wolmart87d5.ttf?png09e" as="font" type="font/ttf" crossorigin="anonymous">
-
-<!-- Vendor CSS -->
-<link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css">
-
-<!-- Plugins CSS -->
-<link rel="stylesheet" type="text/css" href="assets/vendor/swiper/swiper-bundle.min.css">
-<link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.min.css">
-<link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css">
-
-<!-- Default CSS -->
-<link rel="stylesheet" type="text/css" href="assets/css/demo11.css">
-<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
-
-
 <header class="header">
             <div class="header-top">
                 <div class="container">
                     <div class="header-left">
-                        <p class="welcome-msg">Welcome to Wolmart Store message or remove it!</p>
+                        <p class="welcome-msg">Welcome to Shopee</p>
                     </div>
                     <div class="header-right">
                         <div class="dropdown">
@@ -63,21 +38,22 @@
                         <a href="assets/ajax/login.php" class="d-lg-show login sign-in"><i
                                 class="w-icon-account"></i>Sign In</a>
                         <span class="delimiter d-lg-show">/</span>
-                        <a href="assets/ajax/login.php" class="ml-0 ls-50 d-lg-show login register">Register</a>
+                        <a href="assets/ajax/login.php" class="ml-0 d-lg-show login register">Register</a>
                     </div>
                 </div>
             </div>
             <!-- End of Header Top -->
+
             <div class="header-middle">
                 <div class="container">
                     <div class="header-left mr-md-4">
-                        <a href="#" class="mobile-menu-toggle w-icon-hamburger">
+                        <a href="#" class="mobile-menu-toggle  w-icon-hamburger" aria-label="menu-toggle">
                         </a>
-                        <a href="demo11.php" class="logo ml-lg-0">
-                            <img src="assets/images/demos/demo11/logo.png" alt="logo" width="144" height="45">
+                        <a href="index.php" class="logo ml-lg-0">
+                            <img src="assets/images/logo.png" alt="logo" width="144" height="45" />
                         </a>
-                        <form method="get" action="#" class="input-wrapper header-search hs-expanded hs-round bg-white br-xs d-md-flex">
-                            <div class="select-box bg-white">
+                        <form method="get" action="#" class="header-search hs-expanded hs-round d-none d-md-flex input-wrapper">
+                            <div class="select-box">
                                 <select id="category" name="category">
                                     <option value="">All Categories</option>
                                     <option value="4">Fashion</option>
@@ -91,7 +67,7 @@
                                     <option value="12">Clothing</option>
                                 </select>
                             </div>
-                            <input type="text" class="form-control bg-white" name="search" id="search"
+                            <input type="text" class="form-control" name="search" id="search"
                                 placeholder="Search in..." required />
                             <button class="btn btn-search" type="submit"><i class="w-icon-search"></i>
                             </button>
@@ -101,12 +77,12 @@
                         <div class="header-call d-xs-show d-lg-flex align-items-center">
                             <a href="tel:#" class="w-icon-call"></a>
                             <div class="call-info d-lg-show">
-                                <h4 class="chat font-weight-normal font-size-md text-normal ls-normal text-white mb-0">
-                                    <a href="mailto:#" class="text-capitalize text-secondary">Live Chat</a> <span class="text-light ls-normal">or:</span></h4>
+                                <h4 class="chat font-weight-normal font-size-md text-normal ls-normal text-light mb-0">
+                                    <a href="mailto:#" class="text-capitalize">Live Chat</a> or :</h4>
                                 <a href="tel:#" class="phone-number font-weight-bolder ls-50">0(800)123-456</a>
                             </div>
                         </div>
-                        <a class="wishlist label-down link d-xs-show ls-normal" href="wishlist.php">
+                        <a class="wishlist label-down link d-xs-show" href="wishlist.php">
                             <i class="w-icon-heart"></i>
                             <span class="wishlist-label d-lg-show">Wishlist</span>
                         </a>
@@ -114,11 +90,11 @@
                             <i class="w-icon-compare"></i>
                             <span class="compare-label d-lg-show">Compare</span>
                         </a>
-                        <div class="dropdown cart-dropdown cart-offcanvas mr-0 mr-lg-2 text-white">
+                        <div class="dropdown cart-dropdown cart-offcanvas mr-0 mr-lg-2">
                             <div class="cart-overlay"></div>
                             <a href="#" class="cart-toggle label-down link">
                                 <i class="w-icon-cart">
-                                    <span class="cart-count text-white">2</span>
+                                    <span class="cart-count">2</span>
                                 </i>
                                 <span class="cart-label">Cart</span>
                             </a>
@@ -141,10 +117,11 @@
                                         </div>
                                         <figure class="product-media">
                                             <a href="product-default.php">
-                                                <img src="assets/images/cart/product-1.jpg" alt="product" height="84" width="94">
+                                                <img src="assets/images/cart/product-1.jpg" alt="product" height="84"
+                                                    width="94" />
                                             </a>
                                         </figure>
-                                        <button class="btn btn-link btn-close" aria-label="Close">
+                                        <button class="btn btn-link btn-close" aria-label="button">
                                             <i class="fas fa-times"></i>
                                         </button>
                                     </div>
@@ -161,10 +138,11 @@
                                         </div>
                                         <figure class="product-media">
                                             <a href="product-default.php">
-                                                <img src="assets/images/cart/product-2.jpg" alt="product" width="84" height="94">
+                                                <img src="assets/images/cart/product-2.jpg" alt="product" width="84"
+                                                    height="94" />
                                             </a>
                                         </figure>
-                                        <button class="btn btn-link btn-close" aria-label="Close">
+                                        <button class="btn btn-link btn-close" aria-label="button">
                                             <i class="fas fa-times"></i>
                                         </button>
                                     </div>
@@ -187,19 +165,19 @@
             </div>
             <!-- End of Header Middle -->
 
-            <div class="header-bottom sticky-content fix-top sticky-header has-dropdown">
+            <div class="header-bottom sticky-content fix-top sticky-header">
                 <div class="container">
                     <div class="inner-wrap">
                         <div class="header-left">
-                            <div class="dropdown category-dropdown">
-                                <a href="#" class="category-toggle text-white bg-primary text-capitalize" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
-                                    data-display="static" title="Browse Categories">
+                            <div class="dropdown category-dropdown has-border" data-visible="true">
+                                <a href="#" class="category-toggle" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="true" data-display="static"
+                                    title="Browse Categories">
                                     <i class="w-icon-category"></i>
-                                    <span>Browse  Categories</span>
+                                    <span>Browse Categories</span>
                                 </a>
 
-                                <div class="dropdown-box text-default">
+                                <div class="dropdown-box">
                                     <ul class="menu vertical-menu category-menu">
                                         <li>
                                             <a href="shop-fullwidth-banner.php">
@@ -222,7 +200,7 @@
                                                         </li>
                                                         <li><a href="shop-fullwidth-banner.php">Jewlery &
                                                                 Watches</a></li>
-                                                        
+                                                        <li><a href="shop-fullwidth-banner.php">Sale</a></li>
                                                     </ul>
                                                 </li>
                                                 <li>
@@ -250,12 +228,12 @@
                                                                 width="235" height="347" />
                                                         </figure>
                                                         <div class="banner-content">
-                                                            <h4 class="banner-price-info mb-1 ls-normal">Get up to
+                                                            <div class="banner-price-info mb-1 ls-normal">Get up to
                                                                 <strong
                                                                     class="text-primary text-uppercase">20%Off</strong>
-                                                            </h4>
+                                                            </div>
                                                             <h3 class="banner-title ls-normal">Hot Sales</h3>
-                                                            <a href="demo11-shop.php"
+                                                            <a href="shop-banner-sidebar.php"
                                                                 class="btn btn-dark btn-sm btn-link btn-slide-right btn-icon-right">
                                                                 Shop Now<i class="w-icon-long-arrow-right"></i>
                                                             </a>
@@ -339,12 +317,12 @@
                                                             <h3
                                                                 class="banner-title font-weight-bolder text-white ls-normal">
                                                                 Furniture Sale</h3>
-                                                            <h4
+                                                            <div
                                                                 class="banner-price-info text-white font-weight-normal ls-25">
                                                                 Up to <span
                                                                     class="text-secondary text-uppercase font-weight-bold">25%
-                                                                    Off</span></h4>
-                                                            <a href="demo11-shop.php"
+                                                                    Off</span></div>
+                                                            <a href="shop-banner-sidebar.php"
                                                                 class="btn btn-white btn-link btn-sm btn-slide-right btn-icon-right">
                                                                 Shop Now<i class="w-icon-long-arrow-right"></i>
                                                             </a>
@@ -423,10 +401,10 @@
                                                                 Week</h4>
                                                             <h3 class="banner-title text-white">Save On Smart EarPhone
                                                             </h3>
-                                                            <h4
+                                                            <div
                                                                 class="banner-price-info text-secondary font-weight-bolder text-uppercase text-secondary">
-                                                                20% Off</h4>
-                                                            <a href="demo11-shop.php"
+                                                                20% Off</div>
+                                                            <a href="shop-banner-sidebar.php"
                                                                 class="btn btn-white btn-outline btn-sm btn-rounded">Shop
                                                                 Now</a>
                                                         </div>
@@ -515,9 +493,9 @@
                                                                 <h3
                                                                     class="banner-title font-weight-bolder text-capitalize ls-normal">
                                                                     Amazing Sofa</h3>
-                                                                <h4
-                                                                    class="banner-price-info font-weight-normal ls-normal mb-0">
-                                                                    Starting at <strong>$125.00</strong></h4>
+                                                                <div
+                                                                    class="banner-price-info font-weight-normal ls-normal">
+                                                                    Starting at <strong>$125.00</strong></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -535,9 +513,9 @@
                                                                 <h3
                                                                     class="banner-title font-weight-bolder text-capitalize text-white ls-normal">
                                                                     Chair &amp; Lamp</h3>
-                                                                <h4
-                                                                    class="banner-price-info font-weight-normal ls-normal text-white mb-0">
-                                                                    From <strong>$165.00</strong></h4>
+                                                                <div
+                                                                    class="banner-price-info font-weight-normal ls-normal text-white">
+                                                                    From <strong>$165.00</strong></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -580,7 +558,8 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="demo11-shop.php" class="font-weight-bold text-uppercase ls-25">
+                                            <a href="shop-banner-sidebar.php"
+                                                class="font-weight-bold text-primary text-uppercase ls-25">
                                                 View All Categories<i class="w-icon-angle-right"></i>
                                             </a>
                                         </li>
@@ -589,11 +568,11 @@
                             </div>
                             <nav class="main-nav">
                                 <ul class="menu active-underline">
-                                    <li class="active">
-                                        <a href="demo11.php">Home</a>
+                                    <li>
+                                        <a href="index.php">Home</a>
                                     </li>
                                     <li>
-                                        <a href="demo11-shop.php">Shop</a>
+                                        <a href="shop-banner-sidebar.php">Shop</a>
 
                                         <!-- Start of Megamenu -->
                                         <ul class="megamenu">
@@ -719,21 +698,21 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li>
+                                    <li class="active">
                                         <a href="about-us.php">Pages</a>
                                         <ul>
 
                                             <li><a href="about-us.php">About Us</a></li>
-                                            <li><a href="become-a-vendor.php">Become A Vendor</a></li>
+                                            
                                             <li><a href="contact-us.php">Contact Us</a></li>
                                             <li><a href="faq.php">FAQs</a></li>
-                                            <li><a href="error-404.php">Error 404</a></li>
-                                            <li><a href="coming-soon.php">Coming Soon</a></li>
-                                            <li><a href="wishlist.php">Wishlist</a></li>
+                                            
+                                            
+                                            
                                             <li><a href="cart.php">Cart</a></li>
                                             <li><a href="checkout.php">Checkout</a></li>
                                             <li><a href="my-account.php">My Account</a></li>
-                                            <li><a href="compare.php">Compare</a></li>
+                                           
                                         </ul>
                                     </li>
                                     <li>
@@ -761,7 +740,7 @@
                             </nav>
                         </div>
                         <div class="header-right">
-                            <a href="#" class="d-xl-show"><i class="w-icon-map-marker mr-1 mt-0"></i>Track Order</a>
+                            <a href="#" class="d-xl-show"><i class="w-icon-map-marker mr-1"></i>Track Order</a>
                             <a href="#"><i class="w-icon-sale"></i>Daily Deals</a>
                         </div>
                     </div>
