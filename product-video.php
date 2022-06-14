@@ -49,7 +49,7 @@
     <link rel="stylesheet" type="text/css" href="assets/vendor/threesixty-degree/360-degree-riewer.min.css">
 
     <!-- Default CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>

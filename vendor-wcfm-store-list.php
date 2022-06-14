@@ -48,7 +48,7 @@
     <link rel="stylesheet" type="text/css" href="assets/vendor/nouislider/nouislider.min.css">
 
     <!-- Default CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 

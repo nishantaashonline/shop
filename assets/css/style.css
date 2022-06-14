@@ -15804,6 +15804,7 @@ body .product-popup {
 .category-dropdown.has-border .category-toggle {
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
+  background:transparent;
 }
 .category-dropdown.show-dropdown .dropdown-box {
   border-radius: 0.5rem;
@@ -21490,3 +21491,24 @@ aside .sp-sidebar-banner span {
 .product-countdown-container{
 background-color:black;
 }
+.buy-btn{
+background-color: #d41830;
+color:white;
+border:1px solid #d41830;
+}
+.crt-btn{
+  /* color: var(--brand-primary-color); */
+  border: 1px solid #d41830;
+  background: rgba(208,1,27,.08);
+}
+.btn-quickview{
+  background-color: var(--nc-primary);;
+}
+.footer-newsletter{
+background:var(--nc-primary-gradient);
+}
+.w-icon-cart:before {
+  color: white;}
+  .cart-label{
+    color:white;
+  }

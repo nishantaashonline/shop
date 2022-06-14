@@ -13643,6 +13643,7 @@ body .product-popup {
 .category-dropdown.has-border .category-toggle {
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
+  background: transparent;
 }
 .category-dropdown.show-dropdown .dropdown-box {
   border-radius: 0.5rem;
@@ -15587,3 +15588,17 @@ body .product-popup {
 .footer{
   background-color:#fbfbfb;
 }
+.footer-newsletter{
+  background:var(--nc-primary-gradient);
+  }
+  .header-search{
+    background-color: white;
+}
+.select-box{
+  background-color: white;;
+}
+.w-icon-cart:before {
+  color: white;}
+  .cart-label{
+    color:white;
+  }

@@ -47,7 +47,7 @@
     <link rel="stylesheet" type="text/css" href="assets/vendor/codemirror/codemirror.min.css">
 
     <!-- Default CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>

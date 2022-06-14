@@ -269,11 +269,16 @@
                                                         <button class="quantity-minus w-icon-minus"></button>
                                                     </div>
                                                 </div>
-                                                <button class="btn btn-primary btn-cart">
+                                               
+                                            </div>
+                                            <button class="btn btn-primary btn-cart crt-btn">
                                                     <i class="w-icon-cart"></i>
                                                     <span>Add to Cart</span>
                                                 </button>
-                                            </div>
+                                                <button class="btn btn-cart buy-btn">
+                                                
+                                                    <span>Buy Now</span>
+                                                </button>
                                         </div>
 
                                         <div class="social-links-wrapper">
