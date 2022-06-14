@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from portotheme.com/html/wolmart/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Jun 2022 06:09:06 GMT -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -61,7 +61,7 @@
             <nav class="breadcrumb-nav mb-10 pb-8">
                 <div class="container">
                     <ul class="breadcrumb">
-                        <li><a href="demo1.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li>About Us</li>
                     </ul>
                 </div>
@@ -359,10 +359,10 @@
             </div>
         </main>
         <!-- End of Main -->
-
+        <?php include 'footer2.php';?>
         <!-- Start of Footer -->
-       <?php include "footer2.php"?>
+ 
 </body>
 
-<!-- Mirrored from portotheme.com/html/wolmart/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Jun 2022 06:09:09 GMT -->
+
 </html>

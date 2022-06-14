@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6">
                     <div class="widget widget-about">
-                        <a href="demo1.php" class="logo-footer">
+                        <a href="index.php" class="logo-footer">
                             <img src="assets/images/logo_footer.png" alt="logo-footer" width="144" height="45" />
                         </a>
                         <div class="widget-body">
@@ -781,3 +781,4 @@ WebFontConfig = {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 </script>
+
