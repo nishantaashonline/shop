@@ -21528,3 +21528,11 @@ background:var(--nc-primary-gradient);
   .title{
     color: var(--nc-primary);
   }
+
+  .header-search.hs-expanded .select-box,.header-search input.form-control,.btn.btn-search{
+    border: none;
+  }
+  .welcome-msg{
+    padding-left:  5px;
+    padding-right: 5px;
+  }

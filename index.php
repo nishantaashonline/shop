@@ -359,7 +359,7 @@
 
               <div class="caregory-card">
               <div class="card">
-                    <div class="card-header">
+                    <div class="card-header h3">
                         Category
                     </div>
                     <div class="card-body">

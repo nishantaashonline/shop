@@ -1,8 +1,13 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <header class="header">
             <div class="header-top">
                 <div class="container">
                     <div class="header-left">
                         <p class="welcome-msg">Welcome to Shopee</p>
+                        <p class="welcome-msg">Follow us on <a href="" class="welcome-msg"><i class="fa-brands fa-facebook fa-lg"></i></a> 
+                    <a href="" class="welcome-msg"><i class="fa-brands fa-instagram-square fa-lg"></i></a>
+                    </p>
                     </div>
                     <div class="header-right">
                         <div class="dropdown">
@@ -36,9 +41,9 @@
                         <a href="contact-us.php" class="d-lg-show">Contact Us</a>
                         <a href="my-account.php" class="d-lg-show">My Account</a>
                         <a href="assets/ajax/login.php" class="d-lg-show login sign-in"><i
-                                class="w-icon-account"></i>Sign In</a>
+                                class="w-icon-account"></i>Login</a>
                         <span class="delimiter d-lg-show">/</span>
-                        <a href="assets/ajax/login.php" class="ml-0 d-lg-show login register">Register</a>
+                        <a href="assets/ajax/login.php" class="ml-0 d-lg-show login register">Sign Up</a>
                     </div>
                 </div>
             </div>
@@ -637,7 +642,8 @@
                                         </ul>
                                         <!-- End of Megamenu -->
                                     </li>
-                                    <li>
+                                    <!-- vendor section start -->
+                                    <!-- <li>
                                         <a href="vendor-dokan-store.php">Vendor</a>
                                         <ul>
                                             <li>
@@ -662,7 +668,8 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li> -->
+                                    <!-- vendor section end -->
                                     <li>
                                         <a href="blog.php">Blog</a>
                                         <ul>

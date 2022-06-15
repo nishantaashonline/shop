@@ -15613,3 +15613,15 @@ body .product-popup {
   .sticky-content.fixed.fix-top {
             background-color: var(--nc-primary);
   }
+
+  .intro-banner .banner-content {
+    top: 1rem;}
+
+    .welcome-msg{
+      padding-left:  5px;
+      padding-right: 5px;
+      
+    }
+    .cart-dropdown .cart-count {
+      background: #336699;
+    }
