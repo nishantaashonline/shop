@@ -5512,14 +5512,26 @@ blockquote {
 }
 
 .btn-dark {
-  color: #fff;
-  border-color: #333;
-  background-color: #333;
+  background: #fff;
+    border: none;
+    color: #000;
 }
+.btn-sub{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.btn-sub:hover{
+  background-color: rgb(51,102,153);
+  border: none;
+  color: #fff;
+  
+}
+
 .btn-dark:hover, .btn-dark:active, .btn-dark:focus {
   color: #fff;
   border-color: #454545;
-  background-color: #454545;
+  background-color: #F1542F;
 }
 .btn-dark.btn-solid {
   color: #333;

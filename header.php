@@ -6,17 +6,17 @@
                     </div>
                     <div class="header-right">
                         <div class="dropdown">
-                            <a href="#currency">USD</a>
+                          <!--<a href="#currency">USD</a>-->
                             <div class="dropdown-box">
-                                <a href="#USD">USD</a>
+                              <a href="#USD">USD</a>
                                 <a href="#EUR">EUR</a>
                             </div>
                         </div>
                         <!-- End of DropDown Menu -->
 
                         <div class="dropdown">
-                            <a href="#language"><img src="assets/images/flags/eng.png" alt="ENG Flag" width="14"
-                                    height="8" class="dropdown-image" /> ENG</a>
+                            <!--<a href="#language"><img src="assets/images/flags/eng.png" alt="ENG Flag" width="14"
+                                    height="8" class="dropdown-image" /> ENG</a>-->
                             <div class="dropdown-box">
                                 <a href="#ENG">
                                     <img src="assets/images/flags/eng.png" alt="ENG Flag" width="14" height="8"
@@ -31,7 +31,7 @@
                             </div>
                         </div>
                         <!-- End of Dropdown Menu -->
-                        <span class="divider d-lg-show"></span>
+                        
                         <a href="blog.php" class="d-lg-show">Blog</a>
                         <a href="contact-us.php" class="d-lg-show">Contact Us</a>
                         <a href="my-account.php" class="d-lg-show">My Account</a>
@@ -708,7 +708,7 @@
                                             <li><a href="faq.php">FAQs</a></li>
                                             
                                             
-                                            
+                                            <li><a href="wishlist.php">Wishlist</a></li>
                                             <li><a href="cart.php">Cart</a></li>
                                             <li><a href="checkout.php">Checkout</a></li>
                                             <li><a href="my-account.php">My Account</a></li>
@@ -739,10 +739,10 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="header-right">
+                        <!--<div class="header-right">
                             <a href="#" class="d-xl-show"><i class="w-icon-map-marker mr-1"></i>Track Order</a>
                             <a href="#"><i class="w-icon-sale"></i>Daily Deals</a>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>

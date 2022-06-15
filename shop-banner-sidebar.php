@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from portotheme.com/html/wolmart/shop-banner-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Jun 2022 06:08:05 GMT -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -1001,7 +1001,7 @@
                                 class="input-wrapper input-wrapper-inline input-wrapper-rounded">
                                 <input type="email" class="form-control mr-2 bg-white" name="email" id="email"
                                     placeholder="Your E-mail Address" />
-                                <button class="btn btn-dark btn-rounded" type="submit">Subscribe<i
+                                <button class="btn   btn-sub" type="submit">Subscribe<i
                                         class="w-icon-long-arrow-right"></i></button>
                             </form>
                         </div>
@@ -1916,5 +1916,5 @@
 </body>
 
 
-<!-- Mirrored from portotheme.com/html/wolmart/shop-banner-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Jun 2022 06:08:10 GMT -->
+
 </html>

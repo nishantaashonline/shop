@@ -12600,7 +12600,7 @@ body .product-popup {
   color: inherit;
 }
 .header a:not(.btn):hover {
-  color: #f14242;
+  color: #0056b3;
 }
 
 .header-top,
@@ -14931,7 +14931,7 @@ body .product-popup {
   transition: color 0.3s;
 }
 .header-middle a:hover span {
-  color: #f14242;
+  color: #0056b3;
 }
 
 .menu .has-submenu a::after {
