@@ -15610,9 +15610,9 @@ body .product-popup {
     color: var(--nc-primary);
   }
 
-  .sticky-content.fixed.fix-top {
+  /* .sticky-content.fixed.fix-top {
             background-color: var(--nc-primary);
-  }
+  } */
 
   .intro-banner .banner-content {
     top: 1rem;}
@@ -15625,3 +15625,8 @@ body .product-popup {
     .cart-dropdown .cart-count {
       background: #336699;
     }
+
+    .sticky-content.fixed.fix-top {
+  
+      background: var( --nc-primary-gradient);
+  }

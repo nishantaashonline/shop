@@ -21536,3 +21536,9 @@ background:var(--nc-primary-gradient);
     padding-left:  5px;
     padding-right: 5px;
   }
+  .sticky-content.fixed.fix-top {
+  
+    background: var( --nc-primary-gradient);
+}
+
+

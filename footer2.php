@@ -747,12 +747,36 @@
 
 <!-- Plugin JS File -->
 
-<script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/main.min.js"></script>
+
+
+    <script src="assets/vendor/photoswipe/photoswipe.min.js"></script>
+    <script src="assets/vendor/photoswipe/photoswipe-ui-default.min.js"></script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key="></script>
+
+
+     <!-- Plugin JS File -->
+     <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/sticky/sticky.js"></script>
+    <script src="assets/vendor/jquery.plugin/jquery.plugin.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/zoom/jquery.zoom.js"></script>
+    <script src="assets/vendor/jquery.countdown/jquery.countdown.min.js"></script>
+    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.min.js"></script>
+
+    
+   
+   
+ 
+    
+   
+   
+
     <script>
 
         /*

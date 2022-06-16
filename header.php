@@ -4,37 +4,16 @@
             <div class="header-top">
                 <div class="container">
                     <div class="header-left">
-                        <p class="welcome-msg">Welcome to Shopee</p>
+                        <p class="welcome-msg">Welcome to CamKart</p>
                         <p class="welcome-msg">Follow us on <a href="" class="welcome-msg"><i class="fa-brands fa-facebook fa-lg"></i></a> 
                     <a href="" class="welcome-msg"><i class="fa-brands fa-instagram-square fa-lg"></i></a>
                     </p>
                     </div>
                     <div class="header-right">
-                        <div class="dropdown">
-                          <!--<a href="#currency">USD</a>-->
-                            <div class="dropdown-box">
-                              <a href="#USD">USD</a>
-                                <a href="#EUR">EUR</a>
-                            </div>
-                        </div>
+                        
                         <!-- End of DropDown Menu -->
 
-                        <div class="dropdown">
-                            <!--<a href="#language"><img src="assets/images/flags/eng.png" alt="ENG Flag" width="14"
-                                    height="8" class="dropdown-image" /> ENG</a>-->
-                            <div class="dropdown-box">
-                                <a href="#ENG">
-                                    <img src="assets/images/flags/eng.png" alt="ENG Flag" width="14" height="8"
-                                        class="dropdown-image" />
-                                    ENG
-                                </a>
-                                <a href="#FRA">
-                                    <img src="assets/images/flags/fra.png" alt="FRA Flag" width="14" height="8"
-                                        class="dropdown-image" />
-                                    FRA
-                                </a>
-                            </div>
-                        </div>
+                       
                         <!-- End of Dropdown Menu -->
                         
                         <a href="blog.php" class="d-lg-show">Blog</a>
